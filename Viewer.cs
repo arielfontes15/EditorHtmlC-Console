@@ -35,7 +35,7 @@ namespace EditorHtml {
                     Console.Write(" ");
                 } else {
                     Console.ForegroundColor = ConsoleColor.Black;
-                    Console.Write($"{words[i]} ");
+                    Console.Write(words[i]);
                     Console.Write(" ");
                 }
             }
